@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akan.closecontacts">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CloseContacts">
+        <activity
+            android:name=".Update_contact"
+            android:parentActivityName=".My_Contacts" />
+        <activity
+            android:name=".Save_Contact"
+            android:parentActivityName=".My_Contacts" />
+        <activity
+            android:name=".My_Contacts"
+            android:parentActivityName=".loginActivity" />
+        <activity
+            android:name=".Registration"
+            android:label="Register Here"
+            android:parentActivityName=".loginActivity" />
+        <activity
+            android:name=".loginActivity"
+            android:label="Login Here"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

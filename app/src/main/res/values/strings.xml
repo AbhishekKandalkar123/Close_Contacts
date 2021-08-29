@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Close Contacts</string>
+    <string name="close_contacts">Close Contacts</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="username2">Username</string>
+    <string name="password2">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register2">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_no">Phone No</string>
+    <string name="add_new_contact">add_new_contact</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+</resources>
