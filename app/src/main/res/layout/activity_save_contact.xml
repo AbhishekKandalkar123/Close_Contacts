@@ -32,13 +32,14 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/rounded_view_white"
         android:ems="10"
+        android:inputType="number"
         android:hint="@string/enter_number"
-        android:inputType="textPersonName"
         android:paddingLeft="12dp"
         android:textColor="#000000"
         android:textColorHint="#929292"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 

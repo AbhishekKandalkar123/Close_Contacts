@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +22,7 @@ public class Save_Contact extends AppCompatActivity {
 
         Contact_Name = findViewById(R.id.editTextTextPersonName3);
         Contact_Number = findViewById(R.id.editTextTextPersonName4);
+        Contact_Number.setInputType(InputType.TYPE_CLASS_NUMBER);
         Save_Btn = findViewById(R.id.save_button);
         dbHandler = new DBHandler(Save_Contact.this);
 

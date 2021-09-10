@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,18 +40,24 @@ public class Registration extends AppCompatActivity {
                 else{
                     if(Password.equals(Repass)){
                         Boolean userCheckresult = dbHandler.checkUserName(UserName);
-                        if(userCheckresult == false){
-                            Boolean regresult = dbHandler.insertData(UserName, Password, PhoneNumber);
-                            if(regresult == true){
-                                Toast.makeText( Registration.this, "Registration Successful", Toast.LENGTH_SHORT).show();
-                                finish();
+                        Boolean checkDB = dbHandler.isDBEmpty();
+                        if(checkDB == true){
+                            if(userCheckresult == false){
+                                Boolean regresult = dbHandler.insertData(UserName, Password, PhoneNumber);
+                                if(regresult == true){
+                                    Toast.makeText( Registration.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                                    finish();
+                                }
+                                else{
+                                    Toast.makeText(Registration.this, "Registration Failed", Toast.LENGTH_SHORT).show();
+                                }
                             }
                             else{
-                                Toast.makeText(Registration.this, "Registration Failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Registration.this, "User already exists", Toast.LENGTH_SHORT).show();
                             }
                         }
                         else{
-                            Toast.makeText(Registration.this, "User already exists", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Registration.this, "One user Already registered", Toast.LENGTH_SHORT).show();
                         }
                     }
                     else{
@@ -69,5 +76,4 @@ public class Registration extends AppCompatActivity {
             }
         });
     }
-
 }

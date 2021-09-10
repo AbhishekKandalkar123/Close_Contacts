@@ -60,7 +60,7 @@ public class DBHandler extends SQLiteOpenHelper {
             values.put(Pass_Word, Password);
             values.put(Phone_No, PhoneNumber);
             long result = db.insert(TABLE_NAME1, null, values);
-            if (result == -1) {           // if failed to insert values returns -1
+            if(result == -1) {           // if failed to insert values returns -1
                 return false;
             }
             else {
@@ -144,5 +144,14 @@ public class DBHandler extends SQLiteOpenHelper {
         db.close();
     }
 
+    public boolean isDBEmpty(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        boolean chk = true;
+        Cursor mCursor = db.rawQuery("SELECT * FROM " + TABLE_NAME1, null);
+        if (mCursor.getCount()>0){
+            chk = false;
+        }
+        return chk;
+    }
 }
 

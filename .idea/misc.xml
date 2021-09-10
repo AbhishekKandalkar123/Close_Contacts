@@ -3,15 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/drawable/phone_icon.xml" value="0.26875" />
         <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-hdpi/activity_login.xml" value="0.19453125" />
         <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-hdpi/activity_my_contacts.xml" value="0.189453125" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-land/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-w408dp/contact_rv_item.xml" value="0.2" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xhdpi/activiity_update_contact.xml" value="0.1684027777777778" />
         <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xhdpi/activity_login.xml" value="0.19453125" />
-        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_login.xml" value="0.259375" />
-        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_login.xml" value="1.0375" />
-        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
-        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_my_contacts.xml" value="1.0104166666666667" />
-        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_registration.xml" value="1.0104166666666667" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xhdpi/activity_update_contact.xml" value="0.2" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_main.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_my_contacts.xml" value="0.2" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_registration.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_save_contact.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/activity_update_contact.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxhdpi/contact_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout-xxxhdpi/activity_login.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_main.xml" value="0.6" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_my_contacts.xml" value="0.536" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_registration.xml" value="0.6" />
         <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_save_contact.xml" value="0.264" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/activity_update_contact.xml" value="0.6" />
+        <entry key="..\:/Users/Abhishek Kandalkar/MyAndroidProjects/CloseContacts/app/src/main/res/layout/contact_rv_item.xml" value="0.2526041666666667" />
       </map>
     </option>
   </component>
